@@ -11,3 +11,24 @@ name = "rust"
 
 [[analyzers]]
 name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "vue",
+    "react",
+    "ember",
+    "meteor",
+    "angularjs",
+    "angular"
+  ]
+  environment = [
+    "nodejs",
+    "browser",
+    "jest",
+    "mocha",
+    "jasmine",
+    "jquery",
+    "mongo",
+    "cypress",
+    "vitest"
+  ]
