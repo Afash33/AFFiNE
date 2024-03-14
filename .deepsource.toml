@@ -11,3 +11,7 @@ name = "rust"
 
 [[analyzers]]
 name = "javascript"
+
+[[analyzers]]
+name = "typescript"
+enabled = true
